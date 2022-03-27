@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.over{
+    width: 990px;
+    height: 110px;
+    border: 1px solid  rgb(30, 173, 90);
+    background-color:rgb(30, 173, 90) ;
+    
+}
+
+    .testo{
+        width: 260px;
+        height: 25px;
+        border: 1px solid rgb(64, 19, 116);
+        background-color: rgb(51, 90, 177);
+        border-radius: 10px;
+        position: relative;
+        top: 10px;
+        left: 70px;
+        text-align: center;
+       
+    }
+
+
+    .uno, .due, .tre, .quattro, .cinque{
+        width: 120px;
+        height: 40px;
+        border: 1px solid black;
+        padding-left: 30px;
+        transform: rotate(90deg);
+        margin-top: 100px;
+        margin-right:150px ;
+        border-radius: 10px;
+        padding: 5px;
+       
+      
+    }
+    .ultra{
+        width: 100px ;
+        height: 390px;
+        border: 10px;
+         overflow-y: scroll;
+         transform: rotate(-90deg);
+         position: relative;
+         left: 148px;
+         bottom: 130px;
+       
+    }
+    
+    li{
+        list-style: none;
+    }
